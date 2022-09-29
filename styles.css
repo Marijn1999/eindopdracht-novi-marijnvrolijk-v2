@@ -18,11 +18,39 @@
     font-style: normal;
 }
 
+/* ----- Recurring Elements ----- */
 
+.innerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 1 100%;
+
+}
+
+.outerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex 0 1 100%;
+
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    background-color: steelblue;
+    font-size: 0.5em;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    padding: 10px 15px;
+}
 /* ----- Styling Homepage ----- */
 
 body {
-    background-color: grey;
+    background-color: white;
+
 }
 
 
@@ -36,4 +64,13 @@ h2 {
     font-weight: normal;
     font-family: Poppins-Regular, sans-serif;
     color: white;
+}
+
+.navBarLinks a {
+    color: black;
+
+}
+
+.titleLogo {
+    color: rgba(40,62,83,255);
 }
