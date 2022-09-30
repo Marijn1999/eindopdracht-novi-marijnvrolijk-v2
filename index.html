@@ -7,49 +7,206 @@
 </head>
 <body>
 
-<!-- Opbouw homepage -->
+<!-- Opbouw homepage, header -->
+
+<header class="outerContainer">
+    <div class="innerContainer">
+
+        <nav class="navBarTop">
+            <div class="titleLogo">
+                <span>The Clueless Cook</span>
+            </div>
+            <div class="navBarLinks">
+                <a class="navBarLink1" href="index.html">Home</a>
+                <a class="navBarLink2" href="aboutPage.html">About</a>
+                <a class="navBarLink3" href="calculatorPage.html">Calculator</a>
+            </div>
+        </nav>
+
+        <section class="outerContainer header1">
+            <div class="innerContainer textInHeader1">
+                <h1 class="deliciousRecipesText">Delicious Recipes.</h1>
+                <h2 class="dailyUpdatedText">Daily Updated.</h2>
+            </div>
+            <div class="buttonFindRecipes">
+                <button class="button findRecipesButton">Find Recipes</button>
+            </div>
+        </section>
+    </div>
+</header>
+
+
+<!-- Opbouw homepage, main -->
 <main>
-    <nav class="navBarTop">
-        <div class="titleLogo">
-            <p>The Clueless Cook</p>
-        </div>
-        <div class="navBarLinks">
-            <a class="navBarLink1" href="index.html">Home</a>
-            <a class="navBarLink2" href="aboutPage.html">About</a>
-            <a class="navBarLink3" href="calculatorPage.html">Calculator</a>
-        </div>
-    </nav>
+    <section class="outerContainer">
+        <div class="innerContainer">
 
-    <section class="banner1">
-        <div class="textInBanner1">
-            <h1 class="deliciousRecipesText">Delicious Recipes.</h1>
-            <h2 class="dailyUpdatedText">Daily Updated.</h2>
+            <div class="recipeCardsHomepage">
+                <article class="recipeCard1">
+                    <img src="#" alt="">
+                    <h4></h4>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </article>
+                <article class="recipeCard2">
+                    <img src="#" alt="">
+                    <h4></h4>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </article>
+                <article class="recipeCard3">
+                    <img src="#" alt="">
+                    <h4></h4>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </article>
+            </div>
         </div>
-        <div class="nonFunctionalButton1">
-            <span class="findRecipesText">Find Recipes</span>
-        </div>
-        <figure class="imageBannerHomepage_img">
-            <img src="assets/images/hero-image.jpg" alt="Hero Image">
-        </figure>
     </section>
 
-    <section class="recipeCardsHomepage">
-        <figure class="recipeCard1">
+    <section class="outerContainerSearchBarHomepage">
+        <div class="innerContainerSearchBarHomepage">
+            <form id="recipeSearchBar" class="recipeSearchBar">
+                <label for="recipeSearch">
+                    <input class="recipeSearchInput" id="recipeSearch" name="recipeSearch" type="text"
+                           placeholder="Recipe Search">
+                </label>
+                <label for="mealType">
+                    <select required name="mealType" id="mealType">
+                        <option selected value="">Meal type</option>
+                        <option></option>
+                        <option></option>
+                        <option></option>
+                    </select>
+                </label>
+                <label for="cuisineDropdown">
+                    <select name="cuisineDropdown" id="cuisineDropdown">
+                        <option selected value="">Cuisine</option>
+                        <option></option>
+                        <option></option>
+                        <option></option>
+                    </select>
+                </label>
+                <label for="dietDropdown">
+                    <select name="dietDropdown" id="dietDropdown">
+                        <option selected value="">Diet</option>
+                        <option></option>
+                        <option></option>
+                        <option></option>
+                    </select>
+                </label>
+                <label for="timeDropdown">
+                    <select name="timeDropdown" id="timeDropdown">
+                        <option selected value="">Time</option>
+                        <option></option>
+                        <option></option>
+                        <option></option>
+                    </select>
+                </label>
+                <button type=submit class="button searchButtonHomepage">
+                    Search
+                </button>
+            </form>
+        </div>
 
-        </figure>
-        <figure class="recipeCard2">
-
-        </figure>
-        <figure class="recipeCard3">
-
-        </figure>
     </section>
 
+    <section class="outerContainer">
+        <div class="innerContainer">
+            <div class="recipeCardsHomepage2">
+                <article class="recipeCard4">
+                    <img src="#" alt="">
+                    <h4></h4>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </article>
+                <article class="recipeCard5">
+                    <img src="#" alt="">
+                    <h4></h4>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </article>
+                <article class="recipeCard6">
+                    <img src="#" alt="">
+                    <h4></h4>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </article>
+                <article class="recipeCard7">
+                    <img src="#" alt="">
+                    <h4></h4>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </article>
+                <article class="recipeCard8">
+                    <img src="#" alt="">
+                    <h4></h4>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </article>
+                <article class="recipeCard9">
+                    <img src="#" alt="">
+                    <h4></h4>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </article>
+            </div>
+        </div>
+    </section>
 
 </main>
-<!-- Link to JS file -->
+
+<!-- Opbouw homepage, footer -->
+
+<footer class="outerContainerFooter">
+    <div class="innerContainerFooterSection">
+        <h4>Information</h4>
+        <ul>
+            <li>Nullam a enim</li>
+            <li>Quisque cursus</li>
+            <li>Cras egestas</li>
+            <li>Nunc vitae</li>
+        </ul>
+    </div>
+    <div class="innerContainerFooterSection">
+        <h4>About</h4>
+        <ul>
+            <li>Nullam a enim</li>
+            <li>Quisque cursus</li>
+            <li>Cras egestas</li>
+        </ul>
+    </div>
+    <div class="innerContainerFooterSection">
+        <h4>Contact</h4>
+        <ul>
+            <li>Cras egestas</li>
+            <li>Nunc vitae</li>
+            <li>Nullam a enim</li>
+        </ul>
+    </div>
+    <div class="innerContainerFooterSocialLinks">
+        <img src="assets/icons/facebook.png" class="footerSocialIcon" alt="Facebook Icon">
+        <img src="assets/icons/instagram.png" class="footerSocialIcon" alt="Instagram Icon">
+        <img src="assets/icons/linkedin.png" class="footerSocialIcon" alt="LinkedIn Icon">
+        <img src="assets/icons/twitter.png" class="footerSocialIcon" alt="Twitter Icon">
+    </div>
+
+</footer>
+
+
+<!-- Link to JS Script -->
 
 <script src="main.js"></script>
+
 
 </body>
 </html>
