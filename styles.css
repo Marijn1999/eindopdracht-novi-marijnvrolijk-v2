@@ -26,15 +26,21 @@
     flex: 0 1 100%;
 
 }
+
 .button {
+    font-family: Poppins, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    color: #004467;
     display: flex;
-    justify-content: space-between;
-    background-color: steelblue;
-    font-size: 0.5em;
-    border: none;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #38A3A5;
+    width: 170px;
+    height: 35px;
     border-radius: 5px;
-    width: 150px;
-    padding: 10px 15px;
+    border-style: none;
+    cursor: pointer;
 }
 
 /* ----- Styling Homepage ----- */
@@ -109,3 +115,83 @@ h2 {
     color: white;
 
 }
+
+/* ----- Main ----- */
+
+.recipeCardsHomepage {
+    display: flex;
+    justify-content: space-between;
+    width: 1500px;
+    height: 300px;
+    margin: 30px 0;
+}
+
+.outerContainerSearchBarHomepage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(40, 62, 83, 255);
+}
+
+.recipeSearchBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+    height: 50px;
+}
+
+.recipeSearchInput {
+    font-size: medium;
+    font-family: Poppins, sans-serif;
+    width: 150px;
+    height: 35px;
+    border-style: groove;
+}
+
+.dropDownMenu {
+    background-color: white;
+    font-size: medium;
+    font-family: Poppins, sans-serif;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.recipeCardsHomepage2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 35px;
+}
+
+/* ----- Footer ----- */
+
+.outerContainerFooter {
+    background-color: rgba(40, 62, 83, 255);
+    padding: 30px 200px;
+    gap: 30px;
+}
+
+.innerContainerFooterSection {
+    align-items: baseline;
+
+}
+
+.innerContainerFooterSection ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    color: white;
+}
+
+.innerContainerFooterSection li {
+    line-height: 25px;
+}
+
