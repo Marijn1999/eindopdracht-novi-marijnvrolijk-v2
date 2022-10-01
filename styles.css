@@ -43,6 +43,10 @@
     cursor: pointer;
 }
 
+h4 {
+    margin-bottom: 25px;
+}
+
 /* ----- Styling Homepage ----- */
 
 body {
@@ -174,14 +178,26 @@ h2 {
 /* ----- Footer ----- */
 
 .outerContainerFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: right;
     background-color: rgba(40, 62, 83, 255);
     padding: 30px 200px;
     gap: 30px;
+    align-items: baseline;
 }
 
 .innerContainerFooterSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: baseline;
-
+    font-family: Poppins, sans-serif;
+    font-weight: lighter;
+    list-style-type: none;
+    line-height: 20px;
+    color: white;
 }
 
 .innerContainerFooterSection ul {
@@ -193,5 +209,19 @@ h2 {
 
 .innerContainerFooterSection li {
     line-height: 25px;
+}
+
+.innerContainerFooterSocialLinks {
+    display: flex;
+    flex-direction: row;
+}
+
+.footerSocialIcon {
+    display: inline-flex;
+    background-color: #38A3A5;
+    border-radius: 80%;
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+
 }
 
