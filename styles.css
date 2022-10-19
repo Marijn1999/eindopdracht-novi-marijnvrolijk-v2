@@ -16,7 +16,7 @@
     flex-direction: column;
     align-items: center;
     flex: 0 1 100%;
-
+    color: white;
 }
 
 .outerContainer {
